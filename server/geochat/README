@@ -1,0 +1,9 @@
+Build:
+	mvn package		# Where mvn is the Maven package manager command line tool
+
+Run:
+	java -jar -DbindHost=[BIND IP] target/[COMPILED PROJECT NAME] 2>&1 | tee [FILE NAME FOR LOG OUTPUT]
+
+
+Other information:
+	Sets up an HTTP web service on port 8080.

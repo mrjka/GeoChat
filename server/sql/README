@@ -1,0 +1,4 @@
+This folder contains a GUIDELINE or TEST for SOME of the queries that are used within the server.
+The folder also contains the creation script that sets up the database.
+
+It is necessary to have the PostgreSQL extension PostGIS installed in order for the server to function correctly.
